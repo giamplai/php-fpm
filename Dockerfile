@@ -1,4 +1,5 @@
 FROM php:7.1.12-fpm
+MAINTAINER Giampiero Lai <giampiero.lai@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y
 
